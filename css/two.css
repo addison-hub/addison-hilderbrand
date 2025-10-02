@@ -1,0 +1,209 @@
+/*
+Name:  Addison Hilderbrand
+File Name: one.css
+Date: 09/10/25
+*/
+
+@media screen and (max-width: 620px) {
+
+.mobileflex {
+
+font-size: 70%;
+
+}
+
+#hello {
+ color: #30465e;
+ font-size: 200%;
+
+}
+
+}
+
+@media screen and (min-width: 900px) {
+
+.mobileflex {
+
+font-size: 250%;
+
+}
+
+#hello {
+ color: #30465e;
+ font-size: 300%;
+
+}
+
+}
+/*This is where the body is*/
+
+body {
+   
+    text-align: center;
+    background-image: url('../images/homepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*This is where the main is*/
+
+
+h1 {
+
+      color:#30465e
+}
+
+
+p {
+color: #30465e;
+background-color: #ffffff74;
+font-size: 120%;
+border-radius: 20px;
+border-color: #6585a4;
+border-style: double;
+border-width: 10px;
+padding: 10px; 
+font-weight: bold;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+
+}
+
+/*This is where the nav is*/
+
+a {
+
+text-decoration: none;
+
+}
+
+#logo {
+
+height: 7%;
+width: 7%;
+
+}
+
+
+h2 {
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color:#405c7d;
+    background-color: rgba(240, 248, 255, 0.356);
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.give-you-glory-regular {
+  font-family: "Give You Glory", cursive;
+  font-weight: 400%;
+  font-style: normal;
+}
+
+nav {
+
+    width: 95%;
+    position: fixed;
+    display: flexbox;
+    box-align: center;
+    border-radius: 20px;
+    border-color: #ffffff;
+    border-style: double;
+    border-width: 10px;
+
+}
+
+ul {
+
+text-align: left;
+font-size: 100%;
+color: #30465e;
+background-color: rgba(240, 248, 255, 0.434);
+border-radius: 50px;
+
+}
+
+/*Class styles*/
+
+
+.header {
+    transition: transform 0.7s ease;
+
+}
+
+
+ .header {
+    transition: transform 0.3s ease;
+    display: inline-block; 
+    transform-origin: center; 
+ }
+
+    
+  .header:hover {
+    transform: scale(110%); 
+  }
+
+
+ .paragraph {
+    transition: transform 0.3s ease;
+    display: inline-block; 
+    transform-origin: center; 
+ }
+
+    
+  .paragraph:hover {
+    transform: scale(101%); 
+  }
+
+
+  .topnav {
+  border-radius: 10px;
+  background-color: #ffffff4b;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: right;
+  color: #3b5068;
+  text-align: right;
+  border-radius: 10px;
+  padding: 2%;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(235, 244, 255);
+  color: #5e95c977;
+}
+
+
+.topnav a.active {
+  background-color: rgba(94, 149, 201, 0.466);
+  color: #ffffff;
+}
+
+
+/*Footer*/
+
+footer {
+
+color: #6298d2;
+background-color: aliceblue;
+
+}
+
+main img {
+
+border-radius: 5%;
+width: 60%;
+height: 60%
+
+}
+
+

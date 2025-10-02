@@ -1,0 +1,241 @@
+/*
+Name:  Addison Hilderbrand
+File Name: one.css
+Date: 09/10/25
+*/
+
+@media screen and (max-width: 767px) {
+.mobileflex {
+
+font-size: 250%;
+
+}
+
+#hello {
+ color: #30465e;
+ font-size: 200%;
+
+}
+
+
+  .hideimage {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+
+#hello {
+ color: #30465e;
+ font-size: 300%;
+
+}
+
+}
+
+
+
+/*This is where the body is*/
+
+body {
+   
+    text-align: center;
+    background-image: url('../images/homepage.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*This is where the main is*/
+
+h1 {
+
+      color:#30465e
+}
+
+p {
+color: #425971;
+background-color: #ffffff74;
+font-size: 120%;
+border-radius: 20px;
+border-color: #77a0cb;
+border-style: double;
+border-width: 10px;
+padding: 10px; 
+border-color: #6585a4;
+font-weight: bold;
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+
+
+}
+
+h2 {
+
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color:#233850;
+    background-color: rgba(240, 248, 255, 0.434);
+    border-radius: 10px;
+}
+
+.give-you-glory-regular {
+  font-family: "Give You Glory", cursive;
+  font-weight: 400%;
+  font-style: normal;
+}
+
+/*Nav bar*/
+
+a {
+
+text-decoration: none;
+
+}
+
+
+#logo {
+
+height: 7%;
+width: 7%;
+
+}
+
+nav {
+
+    width: 95%;
+    position: fixed;
+    display: flexbox;
+    box-align: center;
+    border-radius: 20px;
+    border-color: #ffffff;
+    border-style: double;
+    border-width: 10px;
+}
+
+ul {
+text-align: left;
+font-size: 30px;
+color: #30465e;
+background-color: rgba(240, 248, 255, 0.356);
+border-radius: 50px;
+
+}
+
+/*Classes*/
+
+.header {
+    transition: transform 0.7s ease;
+
+}
+
+
+ .header {
+    transition: transform 0.3s ease;
+    display: inline-block; 
+    transform-origin: center; 
+ }
+
+    
+  .header:hover {
+    transform: scale(110%); 
+  }
+
+
+ .paragraph {
+    transition: transform 0.3s ease;
+    display: inline-block; 
+    transform-origin: center; 
+ }
+
+    
+  .paragraph:hover {
+    transform: scale(101%); 
+  }
+
+
+  .topnav {
+  border-radius: 10px;
+  background-color: #ffffff4b;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: right;
+  color: #3b5068;
+  text-align: right;
+  border-radius: 10px;
+  padding: 2%;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: rgb(235, 244, 255);
+  color: #5e95c977;
+}
+
+
+.topnav a.active {
+  background-color: #5e95c977;
+  color: #ffffff;
+}
+
+/*Footer*/
+
+footer {
+
+color: #30465e;
+background-color: aliceblue;
+
+}
+
+/*fly down*/
+
+.fly-down {
+  display: inline-block;
+  opacity: 0;
+  animation: flyDown 1s ease-out forwards;
+}
+
+@keyframes flyDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/*carosuel*/
+
+.carousel {
+  width: 256px;
+  height: 256px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.carousel-track {
+  display: flex;
+  width: 300%;
+  animation: slide 8s infinite;
+  height: 100%;
+}
+.carousel-item {
+  width: 33.33%;
+  height: 100%;
+}
+.carousel-item img {
+  width: 256px;
+  height: 256px;
+  object-fit: cover;
+  object-position: center;
+}
+@keyframes slide {
+  0%, 30% { transform: translateX(0); }
+  33%, 63% { transform: translateX(-33.33%); }
+  66%, 96% { transform: translateX(-66.66%); }
+  100% { transform: translateX(0); }
+}
